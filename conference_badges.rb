@@ -15,9 +15,9 @@ return x
 end
 
 def assign_rooms(attendees)
-  attendees_room = []
-  attendees.each_with_index do |name, index|
-   attendees_room << ("Hello, #{name}! You'll be assigned to room #{index + 1}!")
+
+  attendees.maps.with_index do |name, index|
+   ("Hello, #{name}! You'll be assigned to room #{index + 1}!")
     end 
       attendees_room
 end
