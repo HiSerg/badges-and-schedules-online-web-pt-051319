@@ -16,7 +16,7 @@ end
 
 def assign_rooms(attendees)
   
-  attendees.collect.index do |name|
+  attendees.collect.index do |name, index|
    attendees << ("Hello, #{name}! You'll be assigned room #{index + 1}")
     end 
       attendees
