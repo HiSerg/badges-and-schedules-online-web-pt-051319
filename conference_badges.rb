@@ -16,8 +16,8 @@ end
 
 def assign_rooms(attendees)
   
-  attendees.collect do |name|
-    attendees.push("")
+  attendees.collect. do |name|
+    ("Hello, #{name}")
       
   
   
