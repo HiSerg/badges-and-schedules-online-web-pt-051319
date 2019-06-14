@@ -22,7 +22,7 @@ def assign_rooms(attendees)
       attendees_room
 end
 
-def printer
-  
+def printer(attendees_room)
+  puts attendees_room
   
 end
