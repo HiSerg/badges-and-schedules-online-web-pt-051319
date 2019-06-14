@@ -11,7 +11,7 @@ def batch_badge_creator (attendees)
     x.push("Hello, my name is #{names}.")
    
 end 
-return x
+x
 end
 
 def assign_rooms(attendees)
