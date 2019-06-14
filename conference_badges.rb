@@ -15,11 +15,11 @@ return x
 end
 
 def assign_rooms(attendees)
-  
+  attendees_room
   attendees.collect_with_index do |name, index|
-   attendees << ("Hello, #{name}! You'll be assigned room #{index + 1}")
+   attendees_room << ("Hello, #{name}! You'll be assigned room #{index + 1}!")
     end 
-      attendees
+      attendees_room
 end
 
 def printer
