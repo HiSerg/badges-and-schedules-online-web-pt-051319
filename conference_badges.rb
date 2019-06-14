@@ -14,7 +14,11 @@ end
 return x
 end
 
-def assign_rooms
+def assign_rooms(attendees)
+  
+  attendees.collect do |name|
+    attendees.push("")
+      
   
   
 end
