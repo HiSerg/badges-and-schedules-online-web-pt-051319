@@ -7,8 +7,8 @@ end
 
 def batch_badge_creator (attendees)
   x =[] 
-  attendees.each do |names|
-    x.push("Hello, my name is #{names}.")
+  attendees.each do |name|
+    x.push("Hello, my name is #{name}.")
    
 end 
 x
@@ -20,8 +20,9 @@ def assign_rooms(attendees)
     end 
 end
 
-def printer(attendees_room)
-  
+def printer(attendees)
+  batch_badge_creator(attendees).each do |name|
+    puts
 
   
 end
