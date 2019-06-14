@@ -15,7 +15,7 @@ return x
 end
 
 def assign_rooms(attendees)
-  attendees_room
+  attendees_room = []
   attendees.collect_with_index do |name, index|
    attendees_room << ("Hello, #{name}! You'll be assigned room #{index + 1}!")
     end 
