@@ -6,13 +6,12 @@ def badge_maker(name)
 end
 
 def batch_badge_creator (attendees)
-  x = 0
+  x =[] 
   attendees.each do |names|
-   attendees.shift("Hello, my name is #{names}.")
-   x += 1
+    x.shift("Hello, my name is #{names}.")
    
 end 
-return attendees
+return x
 end
 
 def assign_rooms
